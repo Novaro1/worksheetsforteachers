@@ -5,7 +5,7 @@ exports.handler = async (event) => {
     return {
       statusCode: 302,
       headers: {
-        Location: "http://YOUR_SERVER_IP"
+        Location: "http://15.204.230.53"
       }
     };
   }
